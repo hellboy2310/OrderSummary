@@ -1,0 +1,195 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:  hsl(225, 100%, 98%)
+
+}
+
+.fullbody{
+
+min-height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px;
+margin: auto;
+
+
+}
+.bg-img{
+  width: 100%;
+
+}
+.card{
+
+position:absolute;
+
+  max-width: 400px;
+background-color:white ;
+  border-radius: 20px;
+margin: auto;
+margin-bottom: 200px;
+
+}
+.card_product-img{
+  position: relative;
+    border-radius: 20px;
+overflow: hidden;
+
+}
+.person{
+  width: 100%;
+  background-position: center;
+
+  margin-bottom: 10px;
+}
+
+.card_type{
+  font-family: cursive,serif;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 500;
+  color: black;
+
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-position: center;
+
+}
+.card_promo{
+
+width: 22rem;
+  font-size: 16px;
+  font-family: cursive,sans-serif;
+  font-family: 400;
+padding-top: 20px;
+padding-bottom: 20px;
+  color: grey;
+font-weight: 400;
+
+}
+.positioning{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+.card_header{
+text-align: center;
+
+}
+
+}
+.icon{
+
+}
+.Annual{
+  font-family:sans-serif;
+color:black;
+font-family: cursive,sans-serif;
+font-weight: 100px;
+padding-right: 10px;
+font-style: normal;
+
+
+
+}
+.combo{
+padding-right:80px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+  color: grey;
+}
+.music_icon{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+margin-bottom: 30px;
+background-color:   rgb(250, 250, 250);
+border-radius: 8px;
+padding: auto 84px;
+
+
+
+}
+
+.change{
+padding-top: 30px;
+padding-right: 10px;
+margin-left: 10px;
+
+}
+.proceed{
+  padding-left: 25px;
+}
+.btn::before:hover{
+  opacity  = 0;
+  inset = 0;
+  text-align: center;
+  font size:25px;
+  justify-content: center;
+color: grey;
+
+}
+.btn{
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-left: 40px;
+box-shadow:  0px 10px 15px 0px hsl(224, 23%, 55%);
+  transition: all 0.9s ease;
+}
+
+
+
+.btn:hover{
+  color: grey;
+  opacity:1;
+  font-size: 20px;
+  padding:16px;
+
+
+
+}
+.cancel_order{
+padding-top: 20px;
+padding-left: 10px;
+text-align: center;
+justify-content: center;
+
+}
+a{
+  color:  hsl(245, 75%, 52%);
+
+  font:16px;
+}
+.icon{
+  border-radius: 8px;
+  width: 15%;
+  height: 12%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.hell{
+  text-decoration: none;
+  color: grey;
+  transition: all 2s ease;
+}
+.hell:hover{
+  color: hsl(245, 75%, 52%);
+  font-size: 24px;
+}
+@media (max-width:1200px) {
+.card{
+  margin-top: 400px;
+}
+}
